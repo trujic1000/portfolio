@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Aleksandar Trujic</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <!-- Header -->
+    <header id="home">
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container">
+                <a href="#home" class="navbar-brand">AT</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div id="navNavbar" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about-me" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Slider -->
+    <section id="slider">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-image-1">
+                        <div class="dark-overlay">
+                            <div class="container">
+                                <div class="carousel-caption d-none d-md-block text-center">
+                                    <h1 class="display-3">Web Development</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-image-2">
+                        <div class="dark-overlay">
+                            <div class="container">
+                                <div class="carousel-caption d-none d-md-block text-center">
+                                    <h1 class="display-3">Software Engineering</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-image-3">
+                        <div class="dark-overlay">
+                            <div class="container">
+                                <div class="carousel-caption d-none d-md-block text-center">
+                                    <h1 class="display-3">Game Development</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Home Icons -->
+    <section id="home-icons">
+        <div class="content-box-sm">
+            <div class="container">
+                <div class="d-flex flex-row justify-content-between text-center">
+                    <div class="p-4 flex-item">
+                        <i class="fa fa-laptop"></i>
+                        <h3>Web Development</h3>
+                        <p>
+                            In progress of learning HTML, CSS, Bootstrap, JavaScript and jQuery
+                        </p>
+                    </div>
+                    <div class="p-4 flex-item">
+                        <i class="fa fa-keyboard-o"></i>
+                        <h3>Software Engineering</h3>
+                        <p>
+                            Solid knowledge in C programming language, in progress of learning C# and C++
+                        </p>
+                    </div>
+                    <div class="p-4 flex-item">
+                        <i class="fa fa-gamepad"></i>
+                        <h3>Game Development</h3>
+                        <p>
+                            In progress of learning Game Development with Unity 3D using C#
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- About Me -->
+    <section id="about-me">
+        <div class="content-box-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                       <div class="vertical-heading">
+                           <h5>Who Am I</h5>
+                           <h2>A <strong>Story</strong><br> About Me</h2>
+                       </div>
+                    </div>
+                    <div class="col-md-6">
+                    <!-- Accordion -->
+                    <div id="accordion" role="tablist">
+                        <div class="card">
+                            <div id="heading1" class="card-header">
+                                <h5 class="mb-0 ml-5">
+                                    <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fa fa-arrow-circle-down"></i> What is my name? 
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse1" class="collapse">
+                                <div class="card-body">
+                                    <p class="lead m-0">Hi, my name is Aleksandar Trujic.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="heading2" class="card-header">
+                                <h5 class="mb-0 ml-5">
+                                    <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fa fa-arrow-circle-down"></i> Where do I come from? 
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse2" class="collapse">
+                                <div class="card-body">
+                                    <p class="lead m-0">I am from Bosnia and Herzegovina, but I am currently living and studying in Iowa, United States.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="heading3" class="card-header">
+                                <h5 class="mb-0 ml-5">
+                                    <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                                        <i class="fa fa-arrow-circle-down"></i> My goals 
+                                    </div>
+                                </h5>
+                            </div>
+                            <div id="collapse3" class="collapse">
+                                <div class="card-body">
+                                    <p class="lead mb-0">
+                                        I am majoring in Computer Science, and my goal is to be a Software Developer! Besides that, I have passion for HTML, CSS, JavaScript and Game Development.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Statement -->
+    <section id="statement">
+        <div class="content-box-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="tech-statement" class="text-center">
+                            <h3><i class="fa fa-quote-left"></i> A true master is an eternal student. <i class="fa fa-quote-right"></i></h3>
+                            <p>- Lee Sin - <i>League of Legends</i> -</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills -->
+    <section id="skills">
+        <div class="content-box-sm">
+            <div class="container">
+                <h3 class="text-center">My Skills</h3>
+                <hr>
+                <div id="progress-elements" class="row">
+                    <div class="col-md-6">
+                       <div class="progress-item">
+                            <h4>HTML</h4>
+                            <div class="progress">
+                                <div class="progress-bar html-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-md-6">
+                       <div class="progress-item">
+                            <h4>CSS</h4>
+                            <div class="progress">
+                                <div class="progress-bar css-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-md-6">
+                       <div class="progress-item">
+                            <h4>JavaScript</h4>
+                            <div class="progress">
+                                <div class="progress-bar js-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="col-md-6">
+                       <div class="progress-item">
+                            <h4>{ C }</h4>
+                            <div class="progress">
+                                <div class="progress-bar c-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <scrpt src="js/popper.min.js"></scrpt>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

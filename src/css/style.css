@@ -1,0 +1,285 @@
+/* ====================================
+    Default Theme
+    -----------------------------------
+    Fonts: Raleway & Open Sans
+    -----------------------------------
+    Colors:
+/* ==================================*/
+/* ====================================
+                Html, Body
+/* ==================================*/
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px; }
+
+section {
+  background: #fff;
+  overflow: hidden; }
+
+/* ====================================
+                Preloader
+/* ==================================*/
+#preloader {
+  background-color: #f4f4f4;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; }
+  #preloader #status {
+    background-image: url("../img/preloader/spinner.gif");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px; }
+
+/* ====================================
+                Header & Navbar
+/* ==================================*/
+#home .navbar {
+  padding: 10px 0;
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear; }
+  #home .navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+  #home .navbar .nav-link:hover,
+  #home .navbar .nav-link:focus {
+    color: #A9A9A9; }
+  #home .navbar a {
+    color: #fff; }
+
+#home .white-nav {
+  background: #fff;
+  padding: 10px 0;
+  -webkit-box-shadow: 0 8px 6px -9px #999;
+  box-shadow: 0 8px 6px -9px #999;
+  z-index: 2; }
+
+#home .white-nav a {
+  color: #212226; }
+
+#home .white-nav ul.navbar-nav > li > a:hover,
+#home .white-nav ul.navbar-nav > li > a:focus {
+  color: #512AED; }
+
+/* ====================================
+                Slider
+/* ==================================*/
+#slider {
+  height: 100%; }
+  #slider .carousel,
+  #slider .carousel-inner,
+  #slider .carousel-item {
+    height: 100%; }
+  #slider .carousel-item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d; }
+  #slider .carousel-image-1,
+  #slider .carousel-image-2,
+  #slider .carousel-image-3 {
+    height: 100%;
+    width: 100%; }
+  #slider .carousel-image-1 {
+    background: url("../img/slider/image1.jpg");
+    background-position: center;
+    background-size: cover; }
+  #slider .carousel-image-2 {
+    background: url("../img/slider/image2.jpg");
+    background-position: center;
+    background-size: cover; }
+  #slider .carousel-image-3 {
+    background: url("../img/slider/image3.jpg");
+    background-position: center;
+    background-size: cover; }
+  #slider .carousel-caption {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    bottom: initial; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* ====================================
+                Content Boxes
+/* ==================================*/
+.content-box-sm {
+  padding: 80px 0; }
+
+.content-box-lg {
+  padding: 120px 0; }
+
+/* ====================================
+                HEADINGS
+/* ==================================*/
+.vertical-heading h5 {
+  color: #512AED;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-spacing: 9px;
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: relative;
+  top: 60px;
+  left: -33px; }
+
+.vertical-heading h2 {
+  margin: 0 0 0 35px;
+  font-size: 42px;
+  font-weight: 200;
+  line-height: 45px; }
+  .vertical-heading h2 strong {
+    font-weight: 500; }
+
+/* ====================================
+                Home Icons
+/* ==================================*/
+#home-icons {
+  background-color: #f4f4f4; }
+  #home-icons .flex-item {
+    width: 32%;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear; }
+    #home-icons .flex-item i {
+      font-size: 42px;
+      margin: 14px 0;
+      -webkit-transition: all 300ms linear;
+      transition: all 300ms linear; }
+    #home-icons .flex-item h3 {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 10px; }
+    #home-icons .flex-item p {
+      font-size: 14px;
+      font-weight: 400; }
+  #home-icons .flex-item:hover,
+  #home-icons .flex-item:focus {
+    background: #1F4F7F;
+    color: #fff; }
+    #home-icons .flex-item:hover i,
+    #home-icons .flex-item:focus i {
+      -webkit-transform: translateY(-20%);
+      transform: translateY(-20%); }
+
+/* ====================================
+                About Me
+/* ==================================*/
+#about-me #accordion h5 {
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear; }
+
+#about-me #acordion .card .card-header {
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear; }
+
+#about-me .header-active {
+  background-color: #512AED;
+  color: white; }
+
+#about-me .card-body {
+  background-color: #fff; }
+
+/* ====================================
+                Statement
+/* ==================================*/
+#statement {
+  background: url(../img/statement/tech-quote.jpg) no-repeat fixed center;
+  background-size: cover; }
+  #statement .content-box-lg {
+    background: rgba(0, 0, 0, 0.3); }
+    #statement .content-box-lg #tech-statement h3 {
+      color: #fff;
+      font-size: 28px;
+      line-height: 45px; }
+    #statement .content-box-lg #tech-statement p {
+      color: #fff;
+      font-size: 14px;
+      font-family: "Raleway", sans-serif;
+      margin-top: 8px; }
+
+/* ====================================
+                Skills
+/* ==================================*/
+#skills {
+  background-color: #f4f4f4; }
+  #skills h3 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 55px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  #skills hr {
+    width: 50%; }
+  #skills .progress-item {
+    margin-bottom: 30px; }
+    #skills .progress-item h4 {
+      line-height: 62px;
+      margin: 0;
+      font-weight: normal; }
+    #skills .progress-item .progress {
+      height: 20px;
+      border-radius: 0;
+      background: #D3D3D3;
+      overflow: visible; }
+      #skills .progress-item .progress .progress-bar {
+        position: relative; }
+      #skills .progress-item .progress .html-bar {
+        background-color: #e34f26; }
+      #skills .progress-item .progress .css-bar {
+        background-color: #3B5998; }
+      #skills .progress-item .progress .js-bar {
+        background-color: #f7df1e; }
+      #skills .progress-item .progress .c-bar {
+        background-color: #A9A9A9; }
+      #skills .progress-item .progress span {
+        font-size: 11px;
+        font-weight: 100;
+        font-family: "Open Sans", sans-serif;
+        background-color: #212226;
+        padding: 3px;
+        position: absolute;
+        left: 97%;
+        top: -45px; }
+      #skills .progress-item .progress span:before {
+        content: "";
+        border-top: 8px solid #212226;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        position: absolute;
+        bottom: -8px;
+        left: 28%; }
