@@ -37,20 +37,20 @@ function showHideNav() {
         // Show White Nav
         $("nav").addClass("white-nav");
         // Show Back To Top Button
-//        $("#back-to-top").fadeIn();
+        //        $("#back-to-top").fadeIn();
     } else {
         // Hide White Nav
         $("nav").removeClass("white-nav");
         // Hide Back To Top Button
-//        $("#back-to-top").fadeOut();
+        //        $("#back-to-top").fadeOut();
     }
 }
 
 /* ====================================
             About Me - Accordion
 /* ==================================*/
-$(function() {
-    $('.card-header h5').click(function() {
+$(function () {
+    $('.card-header h5').click(function () {
         $(this).parent().toggleClass('header-active');
     });
 });
