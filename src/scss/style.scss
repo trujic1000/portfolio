@@ -444,4 +444,26 @@ section {
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
         box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     }
+
+    .card {
+        border-radius: 0;
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 10px;
+
+            i {
+                font-size: 18px;
+                width: 25px;
+            }
+        }
+    }
 }

@@ -58,15 +58,36 @@ $(function () {
 /* ====================================
                 Progress Bars
 /* ==================================*/
+//$(function () {
+//    $("#progress-elements").waypoint(function () {
+//        $(".progress-bar").each(function () {
+//            $(this).animate({
+//                width: $(this).attr("aria-valuenow") + "%"
+//            }, 2000);
+//        });
+//        this.destroy();
+//    }, {
+//        offset: 'bottom-in-view'
+//    });
+//});
+
 $(function () {
-    $("#progress-elements").waypoint(function () {
-        $(".progress-bar").each(function () {
-            $(this).animate({
-                width: $(this).attr("aria-valuenow") + "%"
-            }, 2000);
-        });
+    progress(1);
+    progress(2);
+    progress(3);
+    progress(4);
+});
+
+// Function for animating single progress bar
+function progress(idNumber) {
+    var selectorId = "#progress-" + idNumber;
+    var selectorClass = selectorId + " .progress-bar";
+    $(selectorId).waypoint(function () {
+        $(selectorClass).animate({
+            width: $(selectorClass).attr("aria-valuenow") + "%"
+        }, 2000);
         this.destroy();
     }, {
         offset: 'bottom-in-view'
     });
-});
+}
