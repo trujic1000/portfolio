@@ -37,12 +37,16 @@ function showHideNav() {
         // Show White Nav
         $("nav").addClass("white-nav");
         // Show Back To Top Button
-        //        $("#back-to-top").fadeIn();
+        $("#back-to-top").fadeIn();
+        // Changing the color of menu icon toggler
+        $(".fa-navicon").addClass("text-dark");
     } else {
         // Hide White Nav
         $("nav").removeClass("white-nav");
         // Hide Back To Top Button
-        //        $("#back-to-top").fadeOut();
+        $("#back-to-top").fadeOut();
+        // Changing the color of menu icon toggler
+        $(".fa-navicon").removeClass("text-dark");
     }
 }
 
@@ -91,3 +95,24 @@ function progress(idNumber) {
         offset: 'bottom-in-view'
     });
 }
+/* ====================================
+            Animation on Scroll
+/* ==================================*/
+$(function () {
+
+    // WOW Initialization
+    new WOW().init();
+});
+/* ====================================
+            Smooth Scrolling
+/* ==================================*/
+$(function () {
+    $("a.smooth-scroll").click(function (event) {
+        event.preventDefault();
+        // Get Section Id 
+        var dest = $(this).attr("href");
+        $("html, body").animate({
+            scrollTop: $(dest).offset().top - 20 // Getting an offset value of section
+        }, 1250, "easeInOutExpo");
+    });
+});

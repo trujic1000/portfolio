@@ -98,8 +98,7 @@ section {
             padding-right: 1em !important;
         }
 
-        .nav-link:hover,
-        .nav-link:focus {
+        .nav-link:hover {
             color: $grey;
         }
 
@@ -123,6 +122,11 @@ section {
     .white-nav ul.navbar-nav > li > a:hover,
     .white-nav ul.navbar-nav > li > a:focus {
         color: $blue;
+    }
+
+    .white-nav ul.navbar-nav > li > a.active {
+        color: $blue;
+        font-weight: 500;
     }
 }
 
@@ -465,5 +469,27 @@ section {
                 width: 25px;
             }
         }
+    }
+}
+
+footer {
+
+    .btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 2px 15px;
+        border: 1px solid $blue;
+        background-color: $white-smoke;
+        color: $blue;
+        border-radius: 4px;
+        font-size: 22px;
+        display: none;
+    }
+
+    .btn-back-to-top:hover {
+        border: 1px solid $blue-saphire;
+        background-color: $blue-saphire;
+        color: $white;
     }
 }
