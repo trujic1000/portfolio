@@ -87,8 +87,7 @@ section {
 #home .white-nav a {
   color: #212226; }
 
-#home .white-nav ul.navbar-nav > li > a:hover,
-#home .white-nav ul.navbar-nav > li > a:focus {
+#home .white-nav ul.navbar-nav > li > a:hover {
   color: #512AED; }
 
 #home .white-nav ul.navbar-nav > li > a.active {
@@ -177,6 +176,10 @@ section {
 /* ==================================*/
 #home-icons {
   background-color: #f4f4f4; }
+  #home-icons .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
   #home-icons .flex-item {
     width: 32%;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);

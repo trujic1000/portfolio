@@ -1,0 +1,10 @@
+@media (max-width: 767.98px) {
+    .vertical-heading {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .vertical-heading h5 {
+        left: -95px !important;
+    } 
+}

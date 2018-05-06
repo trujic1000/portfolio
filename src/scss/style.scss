@@ -239,6 +239,12 @@ section {
 
 #home-icons {
     background-color: $white-smoke;
+    
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
     .flex-item {
         width: 32%;
@@ -265,7 +271,7 @@ section {
             font-weight: 400;
         }
     }
-
+    
     .flex-item:hover,
     .flex-item:focus {
         background: $blue-saphire;
