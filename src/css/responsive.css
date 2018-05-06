@@ -1,4 +1,9 @@
 @media (max-width: 767.98px) {
+    
+    .carousel-item h1 {
+        font-size: 42px !important;
+    }
+    
     .vertical-heading {
         text-align: center;
         margin-bottom: 25px;
@@ -15,5 +20,36 @@
     
     .flex-container .flex-item {
         margin-bottom: 20px !important;
+    }
+    
+    #statement h3 {
+        font-size: 24px !important;
+    }
+    
+    #work .card-footer p {
+        font-size: 12px !important;
+    }
+    
+    #work .card-footer a {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    
+    .carousel-item h1 {
+        font-size: 32px !important;
+    }
+    
+    #statement h3 {
+        font-size: 18px !important;
+    }
+    
+    #work .card-footer p {
+        font-size: 14px !important;
+    }
+    
+    #work .card-footer a {
+        font-size: 24px !important;
     }
 }

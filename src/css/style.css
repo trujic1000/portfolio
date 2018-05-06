@@ -107,6 +107,9 @@ section {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d; }
+    #slider .carousel-item h1 {
+      font-size: 55px;
+      font-weight: 400; }
   #slider .carousel-image-1,
   #slider .carousel-image-2,
   #slider .carousel-image-3 {
